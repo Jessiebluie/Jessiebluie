@@ -36,11 +36,11 @@
         >
           <h1 class="margin-bottom-24px">Welcome to Webflow Cloud</h1>
           <p class="margin-bottom-24px">This is a simple test using Basic components with enhanced styling.</p>
-          <div>
+          <div style={{marginTop: '12px'}}>
             <Link
               button={true}
               options={{
-                href: "#"
+                href: "https://developers.webflow.com/webflow-cloud/getting-started"
               }}
               className="button-primary"
             >
@@ -62,5 +62,19 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
+
+    .button-primary {
+    border-radius: 4px;
+    background: #146ef5;
+    color: #ffffff;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.25), inset 0px 29px 23px -16px rgba(255, 255, 255, 0.04), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.2);
+  }
+
+  .button-primary:hover {
+    background: #2c80fd;
+    color: #ffffff;
+  }
+
+  
   </style>
 
